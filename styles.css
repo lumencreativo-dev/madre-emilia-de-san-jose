@@ -3233,8 +3233,8 @@ html, body {
 }
 
 .obras-int__bandera {
-    width: 1px;
-    height: 1px;
+    width: 36px;
+    height: 36px;
     object-fit: cover;
     border-radius: 50%;
     flex-shrink: 0;
