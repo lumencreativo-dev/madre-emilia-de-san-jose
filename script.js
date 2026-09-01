@@ -670,13 +670,13 @@ const diocesisData = {
                 titulo: '📍 Lugar de Nacimiento',
                 fecha: '7 de diciembre de 1858',
                 descripcion: 'Emilia Chapellín Istúriz nació en Caracas, en el seno de una familia católica ejemplar. Fue la novena de doce hijos.',
-                instagram: '@venerablemadremiliadesanjose'
+                instagram: '@madremiliadesanjose'
             },
             {
                 titulo: '⛪ Catedral de Caracas',
                 fecha: '12 de enero de 1859',
                 descripcion: 'A los 36 días de nacida recibió el Sacramento del Bautismo en la Catedral de Caracas.',
-                instagram: '@venerablemadremiliadesanjose'
+                instagram: '@madremiliadesanjose'
             },
             {
                 titulo: '🏠 Asilo La Providencia',
@@ -755,13 +755,13 @@ const diocesisData = {
                 titulo: '⛪ Celda de la Madre Emilia de San José',
                 fecha: 'Su habitación y lugar de fallecimiento',
                 descripcion: 'Se encuentra cerca de la capilla donde reposan sus restos y suele ser visitada por peregrinos que acuden al hospital para pedir su intercesión.',
-                instagram: '@venerablemadremiliadesanjose'
+                instagram: '@madremiliadesanjose'
             },
             {
                 titulo: '✝️ La tumba de la Venerable Madre Emilia de San José',
                 fecha: 'Emilia Chapellín Istúriz',
                 descripcion: 'Patio interno/capilla del Hospital San José, Maiquetía, La Guaira.',
-                instagram: '@venerablemadremiliadesanjose'
+                instagram: '@madremiliadesanjose'
             },
             {
                 titulo: '🏥 Hospital San José de Maiquetía — Casa Cuna de la Congregación',
