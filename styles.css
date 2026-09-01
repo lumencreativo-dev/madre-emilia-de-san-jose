@@ -3208,7 +3208,8 @@ html, body {
     .huellas-modal__lugar-desc {
         font-size: 13px;
     }
-/* ========================================
+}
+
 /* ===== SECCIÓN OBRAS INTERNACIONALES ===== */
 .obras-int {
     padding: 4rem 0;
@@ -3217,15 +3218,15 @@ html, body {
 
 .obras-int__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 30px;
-    max-width: 1000px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 880px;
     margin: 0 auto;
 }
 
 .obras-int__card {
     text-align: center;
-    padding: 30px 20px;
+    padding: 22px 16px 20px;
     background: var(--color-white);
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -3238,13 +3239,14 @@ html, body {
 }
 
 .obras-int__flag {
-    width: 90px;
-    height: 90px;
-    margin: 0 auto 18px;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 14px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid var(--color-primary-light);
+    border: 3px solid var(--color-primary-light);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
 }
 
 .obras-int__flag img {
@@ -3255,7 +3257,7 @@ html, body {
 
 .obras-int__card-title {
     font-family: var(--font-secondary);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--color-primary);
     margin-bottom: 6px;
@@ -3263,7 +3265,7 @@ html, body {
 }
 
 .obras-int__card-place {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--color-secondary-dark);
     text-transform: uppercase;
@@ -3272,20 +3274,39 @@ html, body {
 }
 
 .obras-int__card-mision {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--color-text-light);
     margin: 0;
 }
 
-/* Responsive Obras Internacionales */
+@media (max-width: 900px) {
+    .obras-int__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .obras-int__grid {
         grid-template-columns: 1fr;
+        max-width: 420px;
         gap: 20px;
     }
 
     .obras-int__flag {
         width: 80px;
         height: 80px;
+    }
+
+    .obras-int__card-title {
+        font-size: 17px;
+    }
+
+    .obras-int__card-place {
+        font-size: 13px;
+    }
+
+    .obras-int__card-mision {
+        font-size: 14px;
     }
 }
