@@ -797,6 +797,17 @@ html, body {
     margin: 0;
 }
 
+.titulo-leyenda {
+    margin-bottom: 2px; /* Reduce el espacio debajo del título */
+}
+
+.instruccion-leyenda {
+    display: block; /* Obliga al texto a ir abajo */
+    font-size: 0.9em; 
+    color: #555;
+    margin-bottom: 15px; /* Da espacio antes de los círculos azules */
+}
+
 /* ========================================
    VIRTUDES
    ======================================== */
