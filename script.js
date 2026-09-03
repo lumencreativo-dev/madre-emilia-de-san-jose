@@ -548,7 +548,7 @@ document.addEventListener('keydown', (e) => {
 // ===== LIGHTBOX DE GALERÍA =====
 const galeriaItems = document.querySelectorAll('.galeria__item');
 const galeriaModal = document.getElementById('modal-galeria');
-const FOTOS_VISIBLES = 9;
+const FOTOS_VISIBLES = 8;
 
 // Ocultar fotos que pasen del límite inicial
 galeriaItems.forEach((item, index) => {
